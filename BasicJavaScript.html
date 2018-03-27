@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me to change size!</button>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me to display none!</button>
+
+<hr>
+
+
+<h2>JavaScript Variables</h2>
+
+<p id="demo3"></p>
+
+<script>
+var price1 = 5;
+var price2 = 6;
+var total = price1 + price2;
+document.getElementById("demo3").innerHTML =
+"The total is: " + total;
+</script>
+<hr>
+<p>Strings are written with quotes.</p>
+<p>Numbers are written without quotes.</p>
+
+<p id="stringprac"></p>
+
+<script>
+var pi = 3.14;
+var person = "John Doe";
+var answer = 'Yes I am!';
+
+document.getElementById("stringprac").innerHTML =
+pi + "<br>" + person + "<br>" + answer;
+</script>
+
+<hr>
+<script type="text/javascript">
+         <!--
+            var age = 20;
+         
+            if( age > 18 ){
+               document.write("<b>Qualifies for driving</b>");
+            }
+         //-->
+      </script>
+      
+      <p>Set the variable to different value and then try...</p>
+
+</body>
+</html>
